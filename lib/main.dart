@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:skygoal_internship_assignment_rudransh_singh/screens/home_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
