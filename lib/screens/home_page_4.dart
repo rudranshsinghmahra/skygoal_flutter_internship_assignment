@@ -78,7 +78,7 @@ class _HomePageFourState extends State<HomePageFour>
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10.0),
                           child: Text(
-                            "Hostel Facility",
+                            "Q & A",
                             style: GoogleFonts.lato(
                                 fontWeight: FontWeight.w900,
                                 fontSize: 9,
@@ -92,7 +92,7 @@ class _HomePageFourState extends State<HomePageFour>
                         child: Padding(
                           padding: const EdgeInsets.only(top: 10.0),
                           child: Text(
-                            "Q & A",
+                            "Hostel Facility",
                             style: GoogleFonts.lato(
                                 fontWeight: FontWeight.w900,
                                 fontSize: 9,
@@ -248,15 +248,15 @@ class _HomePageFourState extends State<HomePageFour>
               height: MediaQuery.of(context).size.height * 0.85,
               child: TabBarView(controller: tabBarController, children: [
                 HomePageFive(),
-                HomePageSix(),
                 Center(
                     child: Text(
-                  "Q & A",
-                  style: GoogleFonts.lato(
-                      fontWeight: FontWeight.w900,
-                      fontSize: 30,
-                      color: Colors.black),
-                )),
+                      "Q & A",
+                      style: GoogleFonts.lato(
+                          fontWeight: FontWeight.w900,
+                          fontSize: 30,
+                          color: Colors.black),
+                    )),
+                HomePageSix(),
                 Center(
                     child: Text(
                   "Events",
