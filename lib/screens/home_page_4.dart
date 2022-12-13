@@ -250,12 +250,12 @@ class _HomePageFourState extends State<HomePageFour>
                 HomePageFive(),
                 Center(
                     child: Text(
-                      "Q & A",
-                      style: GoogleFonts.lato(
-                          fontWeight: FontWeight.w900,
-                          fontSize: 30,
-                          color: Colors.black),
-                    )),
+                  "Q & A",
+                  style: GoogleFonts.lato(
+                      fontWeight: FontWeight.w900,
+                      fontSize: 30,
+                      color: Colors.black),
+                )),
                 HomePageSix(),
                 Center(
                     child: Text(
