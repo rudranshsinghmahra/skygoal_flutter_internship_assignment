@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skygoal_internship_assignment_rudransh_singh/screens/home_page.dart';
+import 'package:skygoal_internship_assignment_rudransh_singh/screens/home_page_3.dart';
 
 void main() {
   runApp(const MyApp());

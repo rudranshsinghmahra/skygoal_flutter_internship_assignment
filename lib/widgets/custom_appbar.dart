@@ -22,7 +22,7 @@ class CustomAppbar extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const SizedBox(
-                  height: 90,
+                  height: 50,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(bottom: 8.0),
@@ -101,7 +101,7 @@ class CustomAppbar extends StatelessWidget {
           ),
           Positioned(
             right: 20,
-            top: 80,
+            top: 40,
             child: SizedBox(
                 height: 30,
                 width: 30,
